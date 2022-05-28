@@ -1,0 +1,66 @@
+
+    :root {
+        /* Шрифты */
+        --main-font: 'Montserrat', sans-serif;
+        --secondary-font: 'Caveat Brush', sans-serif;
+      
+        /* Цвета шрифтов */
+        --primary-text-color: #000000;
+        --title-text-color: #2E2520;
+        --accent-color: #AB816C80;
+        --primary-white-color: #ffffff;
+      
+        /* Цвета заливки */
+        --primary-bacground: #ffffff;
+        --secondary-background: #FEF3E4;
+        --accent-background: #FFFFF9;
+        --primari-button:#AB816C80;
+
+        --icon-fill: #2E2520;
+
+        /* Цвета линий обводки */
+        --projects-border: #FEF3E4;
+        --clients-border: #afb1b8;
+      }
+
+      body {
+        font-family: var(--main-font);
+        background-color: var(--primary-white-color);
+        color: var(--primary-text-color);
+        font-size: 18px;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+      
+      ol,
+      ul {
+        margin: 0;
+      }
+      
+      p {
+        margin: 0;
+      }
+
+      li{
+        list-style-type: none;
+      }
+      
+      img {
+        display: block;
+      }
+
+      .container{
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
