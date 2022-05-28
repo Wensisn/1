@@ -1,4 +1,15 @@
+.program-wrap{
+    @media (min-width:769px){
+        display: flex;
+    }
+}
+
 .program{
+
+    @media (min-width:769px){
+        display: flex;
+    flex-direction: column;
+    }
 
     &__title{
         font-family: 'Caveat Brush' , sans-serif ;
@@ -9,6 +20,10 @@
     text-align: center;
     
     margin-bottom: 8px;
+
+    @media (min-width:769px){
+        text-align: start;
+        }
     
     }
 
@@ -59,10 +74,23 @@
     }
 }
 
+
+.ponchik-wrap{
+    @media (min-width:769px){
+        display: flex;
+        }
+}
+
 .ponchik{
 display: flex;
 flex-wrap: wrap;
 padding: 0;
+
+@media (min-width:769px){
+    display: flex;
+    flex-basis: ((100% - 60px) / 2);
+    flex-wrap: nowrap;
+}
 
 &__item{
     display: flex;
@@ -76,12 +104,24 @@ border-radius: 50%;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+// @media (min-width:769px){
+    
+//     flex-basis: ((100% - 60px)/2);
+// }
+
 }
 &__item:nth-of-type(2){
     margin-top: 57px;
+    @media (min-width:769px){
+        margin-left: auto;
+    }
 }
 &__item:nth-of-type(4){
     margin-top: 57px;
+    @media (min-width:769px){
+        margin-left: auto;  
+    }
 }
 
 &__img{
