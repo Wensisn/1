@@ -69,6 +69,18 @@ img {
   }
 }
 
+@media (min-width: 769px) {
+  .program-wrap {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .program {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .program__title {
   font-family: "Caveat Brush", sans-serif;
   font-size: 24px;
@@ -77,6 +89,11 @@ img {
   letter-spacing: 0em;
   text-align: center;
   margin-bottom: 8px;
+}
+@media (min-width: 769px) {
+  .program__title {
+    text-align: start;
+  }
 }
 .program__list {
   padding: 0;
@@ -118,10 +135,22 @@ img {
   background-color: transparent;
 }
 
+@media (min-width: 769px) {
+  .ponchik-wrap {
+    display: flex;
+  }
+}
+
 .ponchik {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+}
+@media (min-width: 769px) {
+  .ponchik {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 .ponchik__item {
   display: flex;
@@ -139,8 +168,18 @@ img {
 .ponchik__item:nth-of-type(2) {
   margin-top: 57px;
 }
+@media (min-width: 769px) {
+  .ponchik__item:nth-of-type(2) {
+    margin-left: auto;
+  }
+}
 .ponchik__item:nth-of-type(4) {
   margin-top: 57px;
+}
+@media (min-width: 769px) {
+  .ponchik__item:nth-of-type(4) {
+    margin-left: auto;
+  }
 }
 .ponchik__img {
   display: block;
