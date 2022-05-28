@@ -62,5 +62,13 @@
         margin-right: auto;
         padding-left: 10px;
         padding-right: 10px;
+
+        @media (min-width:769px){
+        max-width: 769px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 33px;
+        padding-right: 33px;
+        }
       }
       
